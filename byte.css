@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+#navigation {
+    background-color: white;
+    color: black !important;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 1px 1px 7px 4px rgb(212, 212, 212);
+}
+#brand {
+    font-size: 250%;
+}
+.tags {
+    color: black !important;
+    font-size: 120%;
+}
