@@ -10,7 +10,7 @@ body{
     position: fixed;
     z-index: 10;
     width: 100%;
-    box-shadow: 1px 1px 7px 4px rgb(212, 212, 212);
+    
 }
 #brand {
     font-size: 250%;
@@ -18,4 +18,35 @@ body{
 .tags {
     color: black !important;
     font-size: 120%;
+}
+#home {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(background.jpg);
+    height: 100vh;
+}
+#about {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(about.jpg);
+    /* opacity: 0.8; */
+    height: 90vh;
+    padding: 10%;
+    padding-top: 5% !important;
+    
+}
+#content {
+    display: flex;
+    
+}
+#left {
+    float: left;
+    width: 40%;
+    text-align: justify;
+}
+#right {
+    float: right;
+    margin-left: 20%;
+    width: 40%;
+    text-align: justify;
 }
