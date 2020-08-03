@@ -8,18 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="byte.css">
-    <title>ImmiRent</title>
     <style>
-      #contributors {
-        text-shadow: 2px 2px 8px #FF0000;
+      /* Set the size of the div element that contains the map */
+      #map {
+        display:block;
+        overflow: none;
         position: absolute;
-        top: 200px;
-        font-size: 24px;
-        color: #00FF00;
-        margin: auto;
+
+        height: 100%;
+        /* The height is 400 pixels */
         width: 100%;
-      }      
+        /* The width is the width of the web page */
+      }
     </style>
+    <title>ImmiRent</title>
+    <script src="maps.js"></script>
 </head>
 <body>
     <!-- NAVIGATION BAR STARTS -->
@@ -48,38 +51,12 @@
   </nav>
   <!-- NAVIGATION BAR ENDS -->
 
-  <center>
-   <div id="contributors">
-     <div style="left: 50%;"
-    <font color=white><small>Contributors:<br><br></small></font>
-    Sajiv Jampani
-    <br>
-    Karolina Dubiel
-    <br>
-    Nandini Gangadharan
-   </div>
-  </div>
-</center>
-  <!-- HOME  -->
-  <div id="home">
 
-  </div>
-  <!-- END OF HOME -->
-
-  <div id="about">
-    <h1 align = "center">ImmiRent-Your PathFinder</h1><br><Br><br><br>
-    <div id="content">
-      <div id="left">
-        Are you an immigrant and can't find your tenement? Worry not. ImmiRent is the perfect place for you.<br>
-      </div>
-      <div id="right">
-        Just knock on our 'Find' feature and find the place for you to stay.<br>
-      </div>
-    </div>
-  </div>
-
+      <div id="map"></div>
+        <!-- Replace the value of the key parameter with your own API key. -->
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB166Em024-CHzVmT_kwnQ70wjlSCRkQ4A&callback=initMap">
+        </script>
   
-
 
 <!-- BOOTSTRAP LINKS   -->
 
