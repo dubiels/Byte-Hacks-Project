@@ -1,7 +1,7 @@
 # Byte-Hacks-Project
 This is the web application for the Byte Hacks 2020 submission.
 
-Project: ImmiRent
+Project: <b>ImmiRent</b>
 
 It's a website with a map to help guide immigrants from the 1800s upon arrival in NYC find their desired tenements.
 
